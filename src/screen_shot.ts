@@ -24,7 +24,8 @@ const screenShot = async (url: string, distPath: string) => {
 
   const screenData = await page.screenshot({
     encoding: 'binary',
-    type: 'png',
+    type: 'jpeg',
+    quality: 30,
     fullPage: true,
   });
   fs.writeFileSync(distPath, screenData);
