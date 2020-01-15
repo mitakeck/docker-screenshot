@@ -1,0 +1,18 @@
+{
+  "name": "chromium",
+  "version": "1.0.0",
+  "repository": "git@github.com:mitakeck/docker-chromium.git",
+  "author": "mitake <mitake.ck@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "develop": "tsc -w",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^2.0.0",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "puppeteer": "^2.0.0"
+  }
+}
